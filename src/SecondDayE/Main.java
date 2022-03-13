@@ -29,7 +29,7 @@ public class Main {
         Product product2 = new Product();
         product2.name = " deneme";
         product2.setId(2);
-        product2.setName("Havalı Çelik Yay");
+        product2.setName("Havalı Çelik Yay +0");
         product2.setDescription("Ortalama Zarar 59");
 
         product1.setName("Dolunay Kılıcı +2");

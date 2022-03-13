@@ -1,6 +1,9 @@
 package SecondDayE;
 
 public class Product{
+    public Product(){
+        System.out.println("Constructor çalıştı.");
+    }
     int id;
     String name;
     String description;
