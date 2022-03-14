@@ -5,7 +5,7 @@ public class Main {
 
         Instructor instructor1 = new Instructor(1,"Engin","Demiroğ","deneme@gmail.com","12345","Development");
 
-        Student student1 = new Student(1,"Mertcan","Aydın","canmert547@gmail.com","12345","12345","Türkiye");
+        Student student1 = new Student(1,"Mertcan","Aydın","mertcan@gmail.com","12345","12345","Türkiye");
 
         InstructorManager instructorManager = new InstructorManager();
         instructorManager.add(instructor1);
