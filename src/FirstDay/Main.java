@@ -57,8 +57,9 @@ public class Main {
         System.out.println(mesaj.toUpperCase(Locale.ROOT));
 
 
-        System.out.println("*********************");
+        System.out.println("*********************Asal");
         //100'e kadar olan asal sayıları yazdırma.
+        int sayac2 = 0;
         for (int a = 2;a<=100;a++){
             int sayac = 0;
             for(int b = 2; b<a;b++){
@@ -68,8 +69,11 @@ public class Main {
             }
             if(sayac==0){
                 System.out.println(a);
+                sayac2++;
+
             }
         }
+        System.out.println(sayac2);
 
         System.out.println("-------------------------");
         //Mükemmel sayı bulma.
